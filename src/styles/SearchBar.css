@@ -1,9 +1,13 @@
-.search-bar
-{
-    padding: 30px;
-    position: fixed;
-    top: 0;
-    left: 23%;
-    width: 60%;
-    z-index:3000;
+.search-bar {
+    z-index: 1000; /* Asegúrate de que la barra de búsqueda esté por encima de otros elementos */
+}
+
+.bg-purple {
+    background-color: #2A004E; /* Color morado */
+}
+
+.search-bar .form-control {
+    width: 70%;  /* Ancho del 70% del contenedor */
+    margin-left: 0;  /* Alineación a la izquierda */
+    margin-right: auto;  /* Elimina el margen derecho */
 }

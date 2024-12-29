@@ -24,7 +24,7 @@ const GlobalRouter = () => {
 };
 
 const Layout = ({children}) => (
-    <div className="d-flex flex-column min-vh-100">
+    <div className="d-flex flex-column min-vh-100" >
         <Header/>
         <main className="mt-5 pt-5">
             <div className="container"> {children}</div>

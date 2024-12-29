@@ -28,7 +28,7 @@ const BookDetail = ({ book }) => {
                     <i className="bi bi-arrow-return-left"></i> Volver
                 </button>
                 <button className="btn btn-custom"  onClick={() => handleAddToCart(addToCart, book)}>
-                    Agregar <i className="bi bi-cart"></i>
+                    Agregar al Carrito <i className="bi bi-cart"></i>
                 </button>
             </div>
         </div>
