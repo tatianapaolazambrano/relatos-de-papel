@@ -1,0 +1,16 @@
+.header {
+    background-color: #2A004E;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.icon-book {
+    font-size: 45px;
+}
+.marca-libreria{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+}

@@ -1,0 +1,9 @@
+.lista-libros{
+    text-align: center;
+    margin-top: 25px;
+}
+hr {
+    border: 2px solid #000;
+    margin: 25px auto;
+    width: 70%;
+}

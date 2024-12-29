@@ -1,0 +1,60 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; /* Ocupa toda la altura de la ventana */
+    background-color: #2A004E;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.landing h2 {
+    font-size: 2.5rem; /* Tamaño de fuente grande para el título */
+    color: #ffffff; /* Color del texto */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    animation: moveText 3s ease-in-out infinite; /* Animación para mover el texto */
+}
+
+.landing p {
+    font-size: 1.2rem; /* Tamaño de fuente para el texto */
+    color: #ffffff;
+    animation: moveText 3s ease-in-out infinite; /* Animación para mover el texto */
+}
+
+.landing .loading {
+    font-size: 1rem; /* Tamaño de fuente para el texto de redirección */
+    color: #888; /* Color del texto de redirección */
+    margin-top: 10px; /* Espacio encima del texto de redirección */
+}
+
+/* Animación de desvanecimiento */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.landing {
+    animation: fadeIn 1s ease-in; /* Aplicar la animación al cargar */
+}
+
+/* Animación de movimiento de texto */
+@keyframes moveText {
+    0% {
+        transform: translateX(-50px); /* Empieza desde la izquierda */
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0); /* Se mueve a su posición original */
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(50px); /* Mueve el texto hacia la derecha */
+        opacity: 0;
+    }
+}

@@ -1,0 +1,9 @@
+.search-bar
+{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    left: 23%;
+    width: 60%;
+    z-index:3000;
+}
